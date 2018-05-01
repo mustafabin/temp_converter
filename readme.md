@@ -10,7 +10,7 @@ Goal: create a program that can convert a temperature in fahrenheit, Celsius or 
 * Test your code by running the following the terminal...
 
 ```bash
-$ python temp_converter.py
+$ python3 temp_converter.py
 ```
 
 ## Instructions

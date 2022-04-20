@@ -16,8 +16,10 @@ def convert_temp(unit, val):
         banana[2] = ("Celsius: " + str((val-32)*5/9))
 
 
-unit = input("Enter Unit type: ")
-value = input("Enter Value: ")
-convert_temp(unit, int(value))
-
-print(banana)
+stop = None
+while not stop:
+    unit = input("Enter Unit type: ")
+    value = input("Enter Value: ")
+    convert_temp(unit, int(value))
+    print(banana)
+    stop = input("Enter any key to leave; enter to continue")
